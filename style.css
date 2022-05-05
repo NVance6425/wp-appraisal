@@ -1,0 +1,13 @@
+body {
+    background-color: #3C3B3B;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    padding-top: 1rem;
+}
+
+.navbar-nav > a {
+    margin-left: 1.5rem;
+}
