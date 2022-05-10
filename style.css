@@ -35,3 +35,9 @@ body {
     }
 }
 
+@media(min-height: 1024px){
+    .footer_position {
+        position: fixed;
+        bottom: 0;
+    }
+}
