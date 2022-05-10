@@ -17,11 +17,11 @@
           </div>
       </header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-        <div class="container-fluid">
+        <div class="container-fluid justify-content-end">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link" href="index.html">Home</a>
               <a class="nav-link" href="about.html">About</a>
@@ -31,7 +31,33 @@
         </div>
       </nav>
 
-      <footer class="container-fluid">
+      <div class="container">
+        <div class="row p-3">
+          <div class="col-lg-9 col-md-6 text-white justify-content-center">
+            <p>This is a map to the headquarters of the website I've gotten the most resources from</p>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15675.618081953815!2d-122.374974705822!3d49.038070993993614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485cab0ac7f0807%3A0x5bc3484dce2cbf4b!2sPianote!5e0!3m2!1sen!2sus!4v1652137205460!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col-lg-3 text-white d-flex align-items-center text-center fs-4">
+            <div>Nick Vance <br> Email: nvance@alphaworks.tech <br> Phone: (800) 555-1234 <br> Please reach out to me with any questions or comments!</div>
+          </div>
+        </div>
+      </div>
+      <div class="container d-flex justify-content-center">
+        <div class="row p-3 justify-content-center text-center cta_text">
+          <p class="fs-3 text-white">Enter your name and e-mail address to receive regular updates on my progress</p>
+          <div class="col-lg-4 col-md-3">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="floatingInput" placeholder="Your Full Name">
+              <label for="floatingInput">Full Name</label>
+            </div>
+            <div class="form-floating">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="container-fluid pt-3">
           <div class="row d-flex flex-column align-items-center text-center bg-black">
               <div class="col-lg-9 col-md-3 mb-3">
                   <p class="text-muted mb-2">Deisgned and Built By Nick Vance &copy; <script>document.write(new Date().getFullYear())</script> All Rights Reserved  </p>
